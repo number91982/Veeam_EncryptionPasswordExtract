@@ -2,7 +2,7 @@
 
 A lightweight PowerShell utility designed for system administrators, security auditors, and incident responders to verify the security architecture of **Veeam Backup & Replication** installations. 
 
-The script allows the manual auditing of encrypted strings stored within the Veeam database (`dbo.CryptoKeys` or `dbo.Credentials`) by interacting directly with the local Windows Data Protection API (DPAPI) and the system-specific registry entropy.
+The script allows the manual auditing of encrypted strings stored within the Veeam database (`dbo.CryptoKeys`) by interacting directly with the local Windows Data Protection API (DPAPI) and the system-specific registry entropy.
 
 ## 🛡️ Security & Defensive Context
 This tool visualizes how Windows DPAPI secures sensitive data by binding it to the local system context (`DataProtectionScope.LocalMachine`). 
